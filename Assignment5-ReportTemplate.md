@@ -10,7 +10,7 @@
 |                 | Rachel Renegado  |
 
 # Introduction
-
+The main purpose for this lab was to help us discover about the reliability assessment and the usage of the tools such as C-SFRAT and the Reliability Demonstration Chart with the help of Excel. This lab assignment also explored the failure reliability growth testing which helpps analyze the product’s changes over a period of time. Additionally, this lab also introduced to us the concept of failure data which is critical to analyze as it can aid us in determining how to prevent future failures. Overall, these new concepts solidified the theoretical lectures helped us understand where reliability testing plays it’s role in the software testing procedures. 
 # 
 
 # Assessment Using Reliability Growth Testing 
