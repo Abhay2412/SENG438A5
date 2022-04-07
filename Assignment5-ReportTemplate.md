@@ -42,7 +42,7 @@ Reliability Graph Prediction(SRTAT):
 ![](./media/Reliability-TBF.png)
 
 Reliability Graph Prediction (C-SFRAT): 
-![](./media/IntensityPredicition.png)
+![](./media/IntensityPrediction.png)
 
 ## A discussion on decision making given a target failure rate	
 For deciding on the failure rate target we used the C-SFRAT tool again to help us predict the testing of the new prediction intervals, we also used the other tool SRTAT to help with predicting the failure rate based on the failure number of the data. From both of these tools, we were able to make a target the failure rate being which is dividing the failure numbers by the total number of hours the system is running. Failure rate also helps us in determining how much we need to improve our testing in order to bring this rate down in order to gain assurance on the number of failures the system would experience when released to the end-users. Our aim was to have the lowest possible rate we could to ensure the reliability of the failure data given to us is not at a dangerous level in terms of the safety of the application. With our two predictions, we wanted to set a target of the failure rate to be 0.4 as this was the lowest intensity for both of the models in the desired intervals for the intensity graph displayed in the above section. With this target failure rate, the failure data shall provide reliability to the system under the testing where this data originated from. 
