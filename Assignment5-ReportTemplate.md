@@ -16,6 +16,7 @@ The main purpose of this lab was to help us discover the reliability assessment 
 # Assessment Using Reliability Growth Testing 
 ### Result of model comparison (selecting top two models)
 In this section of the lab assignment, we had to select the best two models using the failure data provided to us the benefit of using the C-SFRAT was that we could simply import the CSV file into this GUI and we could use the functions to determine which fits in well with our data, this feature of Model Results and Predictions it will enable us to narrow which function resembles the closest to the failure data. To approach finding the best two models we select all the possible comparisons we could perform with the covariates. Here we can see all of the models which were selected to see which one would fit the best into our failure data. 
+
 ![](./Screenshots/All Models.png)
 
 # Result of range analysis (an explanation of which part of the data is good for proceeding with the analysis)
