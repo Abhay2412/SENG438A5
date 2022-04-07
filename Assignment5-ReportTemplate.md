@@ -38,11 +38,18 @@ The above image displays the plot for MTTFmin. Through trial and error, we devel
 
 The above image displays the plot for half MTTF. After the MTTFmin plot was found, the parameters were adjusted accordingly for half of the previous MTTF. The calculation for MTTF, in this case, is 25/100,000, which gives an MTTF of 0.00025. This trend dives more within the reject range which corresponds to the changes we made for this graph. Since we __decreased__ the number of acceptable failures, our failures in the half MTTF plot should have more data points in the __reject__ region. 
 
-
 ### Twice MTTFmin
 ![](./media/TwiceMTTFmin.png)
 
 The above image displays the plot for twice MTTF. After the MTTFmin plot was found, the parameters were adjusted accordingly for twice of the initial MTTF. The calculation for MTTF in this case is 400/400,000, which gives an MTTF of 0.001. This trend dives more within the acceptable range which corresponds to the changes we made for this graph. Since we __increased__ the number of acceptable failures, our failures in the twice MTTF plot should have more data points in the __accept__ region.
+
+## A discussion on the advantages and disadvantages of RDC
+**Advantages**
+- RDC is a fairly simple way to assess a system’s reliability. It is very straightforward to assemble a spreadsheet or find a tool to plot test data with and determine how the SUT performs over time. In addition, it does not require much time to generate the plots and analyze them. 
+- RDC is a very low-cost method of determining system reliability because the software required to generate the plots is nothing fancy, just a simple excel sheet will work.
+**Disadvantages**
+- RDC is unable to output a quantitative number for the reliability of a system. A reliability number would be important and very useful in support of decisions and making conclusions on the overall reliability of the system. Unfortunately, RDC is unable to develop this quantitative value but can only visualize the trend for reliability.
+- The MTTF needs to be calculated and unfortunately, it requires a lot of “guess and check” to see which value works the best. This requires rather tedious amounts of work if you do not have an idea of what value to use.
 
 # Comparison of Results
 
