@@ -28,7 +28,7 @@ In this section of the lab assignment, we had to select the best two models usin
 # A discussion on the advantages and disadvantages of reliability growth analysis
 
 # Assessment Using Reliability Demonstration Chart 
-## 3 plots for MTTFmin, twice and half of it for your test data (15 marks -> 5 each)
+## 3 plots for MTTFmin, twice and half of it for your test data
 ### MTTFmin 
 ![](./media/MTTFmin.png)
 The above image displays the plot for MTTFmin. Through trial and error, we developed the plot above using the provided failure data as input to visualize the reliability of the system. As plotted, the reliability trend displayed suggests that the trend is acceptable for our FIO (does not dive heavily in the reject range). The calculation for MTTF, in this case, is 100/200,000, which gives an MTTF of 0.0005. 
