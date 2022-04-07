@@ -48,10 +48,11 @@ The above image displays the plot for twice MTTF. After the MTTFmin plot was fou
 
 # Discussion on Similarity and Differences of the Two Techniques
 
-# How the team work/effort was divided and managed
-
-# 
+# How the teamwork/effort was divided and managed
+The team decided to work all together for this lab. We first installed the tools that were required to complete the lab and worked together to understand how the tools worked. We decided to use C-SFRAT because it seemed to work the best with our laptops. Unfortunately, Alexis and Rachel were unable to use the tool on their computers, so in order to split the work evenly, Abhay and Lauraine worked on Part 1 using C-SFRAT and SRTAT, and Alexis and Rachel worked on Part 2 with the RDC excel chart. After all of the necessary components such as failure ranges were compiled and the graphs were finished, all of the members worked together to write the report and discuss how their tools worked and what their results were.
 
 # Difficulties encountered, challenges overcome, and lessons learned
+There were obstacles that resulted from the incompatibilities with Mac OS and the software that were required to complete the lab. Due to this incompatibility, it was difficult to work efficiently when only half the group was able to operate the appropriate software (C-SFRAT) to visualize and analyze the data. We overcame this challenge by implementing a peer programming style approach to this lab by having the two working computers use C-SFRAT and the other two analyze the data visuals generated. 
 
 # Comments/feedback on the lab itself
+In the future, it would be more efficient and beneficial to all students if the software used in the lab was compatible with all OS to eliminate the obstacles we had to face.
