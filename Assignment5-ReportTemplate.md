@@ -16,7 +16,7 @@ The main purpose of this lab was to help us discover the reliability assessment 
 ## Result of model comparison (selecting top two models)
 In this section of the lab assignment, we had to select the best two models using the failure data provided to us the benefit of using the C-SFRAT was that we could simply import the CSV file into this GUI and we could use the functions to determine which fits in well with our data, this feature of Model Results and Predictions it will enable us to narrow which function resembles the closest to the failure data. To approach finding the best two models we select all the possible comparisons we could perform with the covariates. Here we can see all of the models which were selected to see which one would fit the best into our failure data. 
 
-![](./Screenshots/All Models.png)
+![](./Screenshots/AllModels.png)
 
 ## Result of range analysis (an explanation of which part of the data is good for proceeding with the analysis)
 For the range analysis, we had to look at the data which would fit the points on the failure data graph the best this was our strategy to achieve the best models from the ones the C-SFRAT provided to us. As mentioned above, we also made sure to look at the log-likelihood column and find the biggest two numbers (-57.100 and -59.147) and that is how we were able to identify our two top models displayed below. The range was also primarily used as the number of failures in the dataset as well in which we could create the 31 intervals to provide us analyzing our reliability of the failures which occurred during that time. 
