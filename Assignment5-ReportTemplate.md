@@ -15,16 +15,47 @@ The main purpose of this lab was to help us discover the reliability assessment 
 # Assessment Using Reliability Growth Testing 
 ## Result of model comparison (selecting top two models)
 In this section of the lab assignment, we had to select the best two models using the failure data provided to us the benefit of using the C-SFRAT was that we could simply import the CSV file into this GUI and we could use the functions to determine which fits in well with our data, this feature of Model Results and Predictions it will enable us to narrow which function resembles the closest to the failure data. To approach finding the best two models we select all the possible comparisons we could perform with the covariates. Here we can see all of the models which were selected to see which one would fit the best into our failure data. 
-
 ![](./media/AllModels.png)
+
+To compare these models we selected the Model Comparison tab to present us with a table of all the models, in which we could select the top two models easily.
+![](./media/ModelComparisonTable.png)
+
+With the help of this table, we can see the log-likelihood which we assumed means which model would fit closely with our failure data from this we were able to make out the DW3 (F) and IFRGSB(E, F) were the closet models to our failure data. In which DW3 means Discrete Weibull (Type III) and IFRGSB full form being IFR generalized Salvia & Bollinger. These functions were not covered in the lectures so we cannot go into greater detail in their mathematical formulas for the functions.
 
 ## Result of range analysis (an explanation of which part of the data is good for proceeding with the analysis)
 For the range analysis, we had to look at the data which would fit the points on the failure data graph the best this was our strategy to achieve the best models from the ones the C-SFRAT provided to us. As mentioned above, we also made sure to look at the log-likelihood column and find the biggest two numbers (-57.100 and -59.147) and that is how we were able to identify our two top models displayed below. The range was also primarily used as the number of failures in the dataset as well in which we could create the 31 intervals to provide us analyzing our reliability of the failures which occurred during that time. 
-# Plots for failure rate and reliability of the SUT for the test data provided	
+
+## Plots for failure rate and reliability of the SUT for the test data provided	
+MVF Graph for Model 1: 
+![](./media/MVFGraph1.png)
+
+Intensity Graph for Model 1:
+![](./media/IntensityGraph1.png)
+
+MVF Graph for Model 2: 
+![](./media/MVFGraph2.png)
+
+Intensity Graph for Model 2:
+![](./media/IntensityGraph2.png)
+
+Reliability Graph Prediction(SRTAT):
+![](./media/Reliability-TBF.png)
+
+Reliability Graph Prediction (C-SFRAT): 
+![](./media/IntensityPredicition.png)
 
 ## A discussion on decision making given a target failure rate	
 For deciding on the failure rate target we used the C-SFRAT tool again to help us predict the testing of the new prediction intervals, we also used the other tool SRTAT to help with predicting the failure rate based on the failure number of the data. From both of these tools, we were able to make a target the failure rate being which is dividing the failure numbers by the total number of hours the system is running. Failure rate also helps us in determining how much we need to improve our testing in order to bring this rate down in order to gain assurance on the number of failures the system would experience when released to the end-users. Our aim was to have the lowest possible rate we could to ensure the reliability of the failure data given to us is not at a dangerous level in terms of the safety of the application. With our two predictions, we wanted to set a target of the failure rate to be 0.4 as this was the lowest intensity for both of the models in the desired intervals for the intensity graph displayed in the above section. With this target failure rate, the failure data shall provide reliability to the system under the testing where this data originated from. 
+
 ## A discussion on the advantages and disadvantages of reliability growth analysis
+### Advantages
+- The graphs produced by a reliability growth analysis show any time-dependent trends, allowing us to make decisions based on past behavior and predict how our data will behave in the future.
+- It is easy to determine and examine the changes at a specific point in time from the results of a reliability growth analysis therefore determine and examine the impact that those changes in the development of the project.
+### Disadvantages
+- It is very tedious to create these graphs to analyze the reliability of a system under the test. 
+- Using different tools with the same data brings on different results for the graphs. 
+- The prediction models can differ based on the mathematical functions used in determining a target failure for the system. 
+- Failure data entry into the Excel files can take a long time to input into the tools for example using the C-SFRAT we had to input the failure data into the Excel file that was already done for us beforehand. 
 
 # Assessment Using Reliability Demonstration Chart 
 ## 3 plots for MTTFmin, twice and half of it for your test data
