@@ -11,7 +11,6 @@
 
 # Introduction
 The main purpose of this lab was to help us discover the reliability assessment and the usage of the tools such as C-SFRAT and the Reliability Demonstration Chart with the help of Excel. This lab assignment also explored the failure reliability growth testing which helps analyze the product’s changes over a period of time. Additionally, this lab also introduced to us the concept of failure data which is critical to analyze as it can aid us in determining how to prevent future failures. Overall, these new concepts solidified the theoretical lectures helped us understand where reliability testing plays its role in software testing procedures. 
-# 
 
 # Assessment Using Reliability Growth Testing 
 ## Result of model comparison (selecting top two models)
@@ -42,6 +41,9 @@ The above image displays the plot for half MTTF. After the MTTFmin plot was foun
 ![](./media/TwiceMTTFmin.png)
 
 The above image displays the plot for twice MTTF. After the MTTFmin plot was found, the parameters were adjusted accordingly for twice of the initial MTTF. The calculation for MTTF in this case is 400/400,000, which gives an MTTF of 0.001. This trend dives more within the acceptable range which corresponds to the changes we made for this graph. Since we __increased__ the number of acceptable failures, our failures in the twice MTTF plot should have more data points in the __accept__ region.
+
+## Explain your evaluation and justification of how you decide on the MTTFmin	
+The MTTFmin was found using trial and error with the RDC chart. We began by adjusting the data (ensuring that the graph axes were correct) and then adjusted the data for calculating MTTF until we found an ideal value. When choosing the value for MTTF, we tried whole values divisible by 10. For example, we tested 200 failures, 500, 100, 50, etc. as well as 100,000 input events, 200,000, 50,000, 100,000, etc. When testing all of these values, our graph regions were constantly shifting and it required a large amount of time to adjust them for each trial. Instead of continuing testing with more specific values, we settled on one that was good enough with the given data - allowing it to follow a trend similar to the slides we had been shown in lecture. This value was found to be 100 acceptable failures per 200,000 input events (time units of seconds) - giving us a MTTFmin of 100/200,000 = 0.0005 . Our MTTFmin value was chosen as 0.0005 specifically because it allowed for most of the data points to fall under the “continue testing” area, eventually leading to the SUT becoming acceptable.
 
 ## A discussion on the advantages and disadvantages of RDC
 ### Advantages
