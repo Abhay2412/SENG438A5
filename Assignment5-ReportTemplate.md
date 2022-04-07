@@ -50,13 +50,13 @@ For deciding on the failure rate target we used the C-SFRAT tool again to help u
 
 ## A discussion on the advantages and disadvantages of reliability growth analysis	
 ### Advantages
-The graphs produced by a reliability growth analysis show any time-dependent trends, allowing us to make decisions based on past behavior and predict how our data will behave in the future.
-It is easy to determine and examine the changes at a specific point in time from the results of a reliability growth analysis therefore determine and examine the impact that those changes in the development of the project.
+- The graphs produced by a reliability growth analysis show any time-dependent trends, allowing us to make decisions based on past behavior and predict how our data will behave in the future.
+- It is easy to determine and examine the changes at a specific point in time from the results of a reliability growth analysis therefore determine and examine the impact that those changes in the development of the project.
 ### Disadvantages
-It is very tedious to create these graphs to analyze the reliability of a system under the test. 
-Using different tools with the same data brings on different results for the graphs. 
-The prediction models can differ based on the mathematical functions used in determining a target failure for the system. 
-Failure data entry into the Excel files can take a long time to input into the tools for example using the C-SFRAT we had to input the failure data into the Excel file that was already done for us beforehand. 
+- It is very tedious to create these graphs to analyze the reliability of a system under the test. 
+- Using different tools with the same data brings on different results for the graphs. 
+- The prediction models can differ based on the mathematical functions used in determining a target failure for the system. 
+- Failure data entry into the Excel files can take a long time to input into the tools for example using the C-SFRAT we had to input the failure data into the Excel file that was already done for us beforehand. 
 
 # Assessment Using Reliability Demonstration Chart 
 ## 3 plots for MTTFmin, twice and half of it for your test data
