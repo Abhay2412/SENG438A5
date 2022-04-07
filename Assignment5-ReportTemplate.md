@@ -28,9 +28,21 @@ In this section of the lab assignment, we had to select the best two models usin
 # A discussion on the advantages and disadvantages of reliability growth analysis
 
 # Assessment Using Reliability Demonstration Chart 
+## 3 plots for MTTFmin, twice and half of it for your test data (15 marks -> 5 each)
+#### MTTFmin 
+![](./media/MTTFmin.png)
+The above image displays the plot for MTTFmin. Through trial and error, we developed the plot above using the provided failure data as input to visualize the reliability of the system. As plotted, the reliability trend displayed suggests that the trend is acceptable for our FIO (does not dive heavily in the reject range). The calculation for MTTF, in this case, is 100/200,000, which gives an MTTF of 0.0005. 
 
-# 
+#### Half MTTFmin
+![](./media/HalfMTTFmin.png)
 
+The above image displays the plot for half MTTF. After the MTTFmin plot was found, the parameters were adjusted accordingly for half of the previous MTTF. The calculation for MTTF, in this case, is 25/100,000, which gives an MTTF of 0.00025. This trend dives more within the reject range which corresponds to the changes we made for this graph. Since we __decreased__ the number of acceptable failures, our failures in the half MTTF plot should have more data points in the __reject__ region. 
+
+
+#### Twice MTTFmin
+![](./media/TwiceMTTFmin.png)
+
+The above image displays the plot for twice MTTF. After the MTTFmin plot was found, the parameters were adjusted accordingly for twice of the initial MTTF. The calculation for MTTF in this case is 400/400,000, which gives an MTTF of 0.001. This trend dives more within the acceptable range which corresponds to the changes we made for this graph. Since we __increased__ the number of acceptable failures, our failures in the twice MTTF plot should have more data points in the __accept__ region.
 
 # Comparison of Results
 
