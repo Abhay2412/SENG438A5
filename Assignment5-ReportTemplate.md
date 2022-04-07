@@ -20,11 +20,11 @@ In this section of the lab assignment, we had to select the best two models usin
 ![](./Screenshots/All Models.png)
 
 # Result of range analysis (an explanation of which part of the data is good for proceeding with the analysis)
-
+For the range analysis, we had to look at the data which would fit the points on the failure data graph the best this was our strategy to achieve the best models from the ones the C-SFRAT provided to us. As mentioned above, we also made sure to look at the log-likelihood column and find the biggest two numbers (-57.100 and -59.147) and that is how we were able to identify our two top models displayed below. The range was also primarily used as the number of failures in the dataset as well in which we could create the 31 intervals to provide us analyzing our reliability of the failures which occurred during that time. 
 # Plots for failure rate and reliability of the SUT for the test data provided	
 
 # A discussion on decision making given a target failure rate	
-
+For deciding on the failure rate target we used the C-SFRAT tool again to help us predict the testing of the new prediction intervals, we also used the other tool SRTAT to help with predicting the failure rate based on the failure number of the data. From both of these tools, we were able to make a target the failure rate being which is dividing the failure numbers by the total number of hours the system is running. Failure rate also helps us in determining how much we need to improve our testing in order to bring this rate down in order to gain assurance on the number of failures the system would experience when released to the end-users. Our aim was to have the lowest possible rate we could to ensure the reliability of the failure data given to us is not at a dangerous level in terms of the safety of the application. With our two predictions, we wanted to set a target of the failure rate to be 0.4 as this was the lowest intensity for both of the models in the desired intervals for the intensity graph displayed in the above section. With this target failure rate, the failure data shall provide reliability to the system under the testing where this data originated from. 
 # A discussion on the advantages and disadvantages of reliability growth analysis
 
 # Assessment Using Reliability Demonstration Chart 
